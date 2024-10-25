@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="fontawesome/js/all.js"></script>
+  </head>
+
+  <body style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,188,1) 35%, rgba(0,212,255,1) 100%);">
+    <div class="container" style="margin-top: 100px;">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <div class="card shadow-lg border-0 rounded">
+            <div class="card-body p-4">
+              <div class="row mx-auto">
+                <div class="col-md-12">
+                  <div class="card" style="border:none;background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(61,61,188,1) 35%, rgba(0,212,255,1) 100%);">
+                    <div class="card-body justify-content-center align-items-center d-flex">
+                      <img src="dorsu_logo.png" style="width: 40px; height: 40px; border-radius: 50px;">
+                      <div style="width: 2px; height: 40px; background-color: black; margin: 0 15px;"></div>
+                      <img src="raptors.png" style="width: 50px; height: 50px; border-radius: 50px;">
+                      <h4 class="ms-1 text-warning" style="font-family: Copperplate Gothic Bold; font-weight: bold;">DOrSU RAPTORS</h4>
+                    </div>
+                  </div>
+                  <div class="card" style="border:none;">
+                    <div class="card-body mx-auto">
+                      <h4 class="ms-1" style="font-family: Copperplate Gothic Bold; font-weight: bold;">Login</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center mt-4">
+                  <div class="mt-2 m-auto bg-dark" style="width:auto; padding: 2px;"></div><br>
+                  <a href="homepage.html"><button class="btn btn-warning" type="submit">Login</button></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center mt-3">
+                  <p>Don't have an account? <a href="index1.html" class="text-warning">Register here</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script>
+      document.getElementById("registerForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+        // Redirect to index.html after form validation
+        window.location.href = "index.html";
+      });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
